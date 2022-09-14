@@ -7,7 +7,13 @@ const AddNewProduct = () => {
     const [color, setColor] = useState("");
 
     const handleClickBtn = () => {
-        console.log(name, price, size, color);
+        let object = {
+            name,
+            price,
+            size,
+            color,
+        };
+        console.log(object);
     };
 
     const handleHideShow = () => {
@@ -19,7 +25,7 @@ const AddNewProduct = () => {
     return (
         <div className="basis-1/3">
             {isShowDetail === true && (
-                <div div className="bg-gray-200 p-4">
+                <div className="bg-gray-200 p-4">
                     <h3 className="text-xl">Add New A Product</h3>
                     <label className="block mt-5">
                         <span className="text-gray-700">Name</span>
