@@ -4,7 +4,7 @@ const AddTodo = ({ handleAddTodo, setTodo, todo }) => {
     return (
         <div className="flex items-end">
             <label className="block">
-                <span class="text-gray-700">Full name</span>
+                <span className="text-gray-700">Full name</span>
                 <input
                     type="text"
                     name="name"
