@@ -4,7 +4,7 @@ const DisplayTodo = ({ listTodo, handleDeleteTodo }) => {
             <h3 className="text-2xl">List to do</h3>
             <ul className="mt-8">
                 {listTodo.map((item, index) => (
-                    <li key={item.id} onClick={() => handleDeleteTodo(item.id)} className="border-b border-black">
+                    <li key={item.id} onClick={() => handleDeleteTodo(item.id)} className="border-b border-black py-4">
                         {item.name}
                     </li>
                 ))}
