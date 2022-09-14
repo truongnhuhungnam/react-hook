@@ -29,7 +29,7 @@ const Home = () => {
     };
 
     return (
-        <div className="basis-3/4 max-w-xl mx-auto">
+        <div className="basis-2/3 max-w-xl mx-auto">
             <AddTodo
                 handleAddTodo={handleAddTodo}
                 setTodo={setTodo}
